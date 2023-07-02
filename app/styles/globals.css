@@ -3,4 +3,12 @@
 @tailwind utilities;
 
 :root {
+    --mirage: #18171D;
+    --dark-jungle: #1C1C24;
+    --liver: #4A4E51;
+    --pink-red: #EF1F36;
+    --secandray: #49494C;
+    --blue-cyan: #196FD5;
+    --blue-rgb: 20, 143, 171;
+    --blue-picton-rgb: 670, 160, 230;
 }
