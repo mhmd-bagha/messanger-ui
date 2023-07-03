@@ -9,6 +9,6 @@
     --pink-red: #EF1F36;
     --secandray: #49494C;
     --blue-cyan: #196FD5;
-    --blue-rgb: 20, 143, 171;
-    --blue-picton-rgb: 670, 160, 230;
+    --blue-rgb: rgb(20, 143, 171);
+    --blue-picton-rgb: rgb(67, 161, 231);
 }
