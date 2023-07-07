@@ -4,7 +4,7 @@ import ChangeMode from "@/app/components/sidebar/changeMode";
 
 const Sidebar = () => {
     return (
-        <div className="py-4 px-3">
+        <div className="bg-mirage h-full lg:h-screen py-4 px-3">
             {/* profile story */}
             <ProfileStory/>
             {/* folders */}
