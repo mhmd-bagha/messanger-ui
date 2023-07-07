@@ -1,10 +1,11 @@
 import Sidebar from "@/app/components/sidebar";
+import Layout from "@/app/customLayout";
 
 const Home = () => {
     return (
-        <div className="flex justify-between items-center">
+        <Layout>
             <Sidebar/>
-        </div>
+        </Layout>
     )
 }
 
