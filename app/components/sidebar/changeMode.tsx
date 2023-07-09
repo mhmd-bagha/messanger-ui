@@ -16,7 +16,7 @@ const ChangeMode = () => {
                        onChange={() => setChangeMode(!changeMode)}/>
 
                 <button
-                    className={`bg-mirage rounded-full absolute top-4 right-2 transition-all duration-500 w-6 h-12 ${changeMode && 'translate-y-10'}`}/>
+                    className={`bg-mirage rounded-full absolute top-4 right-2 transition-all duration-500 w-6 h-10 ${changeMode && 'translate-y-10'}`}/>
 
                 <label htmlFor="changeMode" className="grid place-items-center relative w-full h-28 p-2">
                     {changeMode ? <IoIosMoon size={20} className="text-blue-picton-rgb"/> :
