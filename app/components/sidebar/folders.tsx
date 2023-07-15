@@ -56,7 +56,7 @@ const Folders = () => {
                 return (
                     <>
                         <button
-                            className={`relative text-liver block my-2 py-2 ${checkActiveButton ? 'text-blue-picton-rgb' : ''}`}
+                            className={`relative block my-2 py-2 ${checkActiveButton ? 'text-blue-picton-rgb' : 'text-liver'}`}
                             key={index} title={folder.title}
                             onClick={() => activeClassFolder(index)}>
                             <folder.icon size={22} className=""/>
